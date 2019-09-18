@@ -18,9 +18,7 @@ function greet(time) {
 
 }
 
-function displayMessage(testContent) {
-  testContent = "TEST"
-   let content = "something"
-   document.getElementById(id= "greeting").innerHTML = "TEST"   
-
+ function displayMessage(testContent) {
+  document.querySelector("#greeting").innerText = testContent
+ 
 }
